@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-08-10T03:02:14.928543+00:00",
+  "claims": [
+    {
+      "claim": "91% (+/- 2.3%) behavioral preservation",
+      "status": "UNSUPPORTED",
+      "actual": "phi_uniform mean = 0.0",
+      "action": "REPLACE with actual values",
+      "human_required": true
+    },
+    {
+      "claim": "Modulus 113 task",
+      "status": "UNSUPPORTED",
+      "actual": "Notebook uses task_mod=23",
+      "action": "DETERMINE PROVENANCE",
+      "human_required": true
+    },
+    {
+      "claim": "Symmetrization formula A_sym = 0.5*(A + A^T)",
+      "status": "INCORRECT",
+      "actual": "Code uses A_sym = 0.5*(|A| + |A|^T)",
+      "action": "SAFE TO FIX",
+      "human_required": false
+    },
+    {
+      "claim": "Integrated Gradients attribution",
+      "status": "MISLEADING",
+      "actual": "Primary method is gradient*activation; IG is sanity check",
+      "action": "SAFE TO FIX",
+      "human_required": false
+    },
+    {
+      "claim": "49-347 circuit nodes across models",
+      "status": "UNSUPPORTED",
+      "actual": "Only GPT-2 Small tested; circuit has 10 nodes",
+      "action": "DO NOT AUTOFILL",
+      "human_required": true
+    },
+    {
+      "claim": "52%-82% cross-architecture transfer",
+      "status": "UNSUPPORTED",
+      "actual": "Transfer demo never executed",
+      "action": "DO NOT AUTOFILL",
+      "human_required": true
+    }
+  ]
+}

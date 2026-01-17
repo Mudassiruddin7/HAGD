@@ -1,0 +1,33 @@
+{
+  "source": "HAGD_v30.ipynb single seed (seed=0)",
+  "note": "Multi-seed control statistics flagged as future improvement.",
+  "seed_0_controls": {
+    "hagd_circuit_phi_scoped": 0.227,
+    "zero_features_phi_scoped": 0.273,
+    "random_features_phi_scoped_mean": 0.269,
+    "bottom_necessity_phi_scoped": 0.273,
+    "greedy_search_phi_scoped": 0.284
+  },
+  "comparison_table": [
+    {
+      "method": "HAGD circuit",
+      "phi_scoped": 0.227
+    },
+    {
+      "method": "Zero features",
+      "phi_scoped": 0.273
+    },
+    {
+      "method": "Random features (mean)",
+      "phi_scoped": 0.269
+    },
+    {
+      "method": "Bottom-necessity",
+      "phi_scoped": 0.273
+    },
+    {
+      "method": "Greedy search",
+      "phi_scoped": 0.284
+    }
+  ]
+}

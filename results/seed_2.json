@@ -1,0 +1,18 @@
+{
+  "seed": 2,
+  "model": "gpt2",
+  "task": "modular_arithmetic",
+  "task_mod": 23,
+  "config_hash": "c3c5adbfa6d8726b",
+  "notebook_hash": "fdd38ea7fbaef8ee4d484b73bcfb8404c534dcd979122ad264e0617b873ddd9a",
+  "timestamp": "2026-08-10T02:38:21.020516+00:00",
+  "gate_failed": "accuracy 0.590 < 0.800",
+  "full_accuracy": NaN,
+  "phi_uniform": NaN,
+  "phi_generation": NaN,
+  "phi_first_step": NaN,
+  "reconstruction_variance_max": NaN,
+  "runtime_total_s": NaN,
+  "runtime_search_s": NaN,
+  "preservation": NaN
+}

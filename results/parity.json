@@ -1,0 +1,12 @@
+{
+  "seed": 0,
+  "task": "parity",
+  "config_hash": "c3c5adbfa6d8726b",
+  "notebook_hash": "fdd38ea7fbaef8ee4d484b73bcfb8404c534dcd979122ad264e0617b873ddd9a",
+  "gate_failed": "accuracy 0.520 < 0.800",
+  "phi_uniform": NaN,
+  "phi_generation": NaN,
+  "phi_first_step": NaN,
+  "full_accuracy": NaN,
+  "runtime_total_s": NaN
+}

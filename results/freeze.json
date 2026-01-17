@@ -1,0 +1,28 @@
+{
+  "v31_config": {
+    "base_revision": "HAGD_v30",
+    "model": "gpt2",
+    "task": "modular_arithmetic",
+    "task_mod": 23,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "second_task": "parity",
+    "pipeline_version": "v30-frozen"
+  },
+  "notebook_hash": "fdd38ea7fbaef8ee4d484b73bcfb8404c534dcd979122ad264e0617b873ddd9a",
+  "config_hash": "c3c5adbfa6d8726b",
+  "environment": {
+    "python_version": "3.12.13",
+    "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+    "torch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "timestamp": "2026-08-10T00:25:48.352608+00:00",
+    "gpu_name": "Tesla T4",
+    "gpu_memory_gb": 15.64
+  }
+}

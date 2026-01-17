@@ -1,0 +1,70 @@
+{
+  "n_seeds_total": 5,
+  "n_seeds_completed": 1,
+  "phi_uniform": {
+    "mean": 0.0,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "phi_generation": {
+    "mean": 0.2727272727272727,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "phi_first_step": {
+    "mean": 0.3295454545454546,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "full_accuracy": {
+    "mean": 0.8380952380952381,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "reconstruction_variance_max": {
+    "mean": 0.002831094665452838,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "runtime_total_s": {
+    "mean": 1406.5077531337738,
+    "std": NaN,
+    "ci_95": [
+      NaN,
+      NaN
+    ],
+    "n": 1
+  },
+  "hagd_vs_controls": {
+    "hagd_phi_generation_mean": 0.2727272727272727,
+    "zero_features": 0.273,
+    "random_features_mean": 0.269,
+    "greedy_search": 0.284
+  },
+  "manuscript_91_percent_provenance": {
+    "status": "UNSUPPORTED",
+    "actual_phi_uniform_mean": 0.0,
+    "actual_phi_generation_mean": 0.2727272727272727,
+    "recommendation": "Replace with actual computed values."
+  }
+}

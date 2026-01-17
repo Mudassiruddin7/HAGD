@@ -1,0 +1,25 @@
+{
+  "replay_match": true,
+  "comparison": {
+    "phi_uniform": {
+      "run_a": 0.0,
+      "run_b": 0.0,
+      "match": true
+    },
+    "phi_generation": {
+      "run_a": 0.2727272727272727,
+      "run_b": 0.2727272727272727,
+      "match": true
+    },
+    "phi_first_step": {
+      "run_a": 0.3295454545454546,
+      "run_b": 0.3295454545454546,
+      "match": true
+    },
+    "full_accuracy": {
+      "run_a": 0.8380952380952381,
+      "run_b": 0.8380952380952381,
+      "match": true
+    }
+  }
+}

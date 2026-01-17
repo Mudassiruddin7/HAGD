@@ -1,0 +1,87 @@
+{
+  "generated_by": "HAGD_v31.ipynb",
+  "timestamp": "2026-08-10T03:02:14.918181+00:00",
+  "reviewer_comments": {
+    "R1_complexity_analysis": {
+      "status": "PARTIALLY_ADDRESSED",
+      "evidence": [
+        "results/freeze.json",
+        "v30 STAGE_TIMES"
+      ],
+      "note": "Per-stage timing captured; formal O() theorem needs manual work"
+    },
+    "R2_symmetrization": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cell 38: A_sym = 0.5*(|A| + |A|^T)"
+      ],
+      "note": "Paper says A_sym=0.5*(A+A^T) but code uses absolute values. FIX."
+    },
+    "R3_attribution_method": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cell 32: grad_x_act",
+        "v30 cell 34: IG correlation=0.970"
+      ],
+      "note": "Primary method is grad*act, not IG. FIX terminology."
+    },
+    "R4_infrastructure": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "results/freeze.json"
+      ],
+      "note": "GPT-2 Small only. Large-model infrastructure UNSUPPORTED."
+    },
+    "R5_statistical_reporting": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "results/seed_sweep_summary.json"
+      ],
+      "note": "5-seed stats computed. Labeled EXPLORATORY."
+    },
+    "R6_ablation_runtime": {
+      "status": "PARTIALLY_ADDRESSED",
+      "evidence": [
+        "v30 cell 82: summarize_ablation_runs"
+      ]
+    },
+    "R7_large_circuit_interpretability": {
+      "status": "PARTIALLY_ADDRESSED",
+      "note": "Hierarchy helps but does not fully solve at scale."
+    },
+    "R8_decoder_bias": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cell 19: nn.Linear (bias=True)",
+        "v30 cell 22: init from mean"
+      ]
+    },
+    "R9_phi_definition": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cell 49: phi = acc_circuit / acc_full"
+      ]
+    },
+    "R10_transfer_alignment": {
+      "status": "PARTIALLY_ADDRESSED",
+      "note": "Method exists (correlation-based) but never executed."
+    },
+    "R11_code_availability": {
+      "status": "PARTIALLY_ADDRESSED",
+      "note": "Code exists but not in public repository yet."
+    },
+    "R_prompt_stability": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cell 65: phi differs by 0.133 across subgroups"
+      ],
+      "note": "Tested, found NOT stable."
+    },
+    "R_hierarchy_sensitivity": {
+      "status": "ADDRESSED",
+      "evidence": [
+        "v30 cells 67-68: branching factor sweep"
+      ]
+    }
+  }
+}

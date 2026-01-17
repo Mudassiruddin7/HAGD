@@ -1,0 +1,13 @@
+{
+  "configuration": "Full Framework",
+  "seed": 0,
+  "preservation": 0.2727272727272727,
+  "total_time_s": 1409.6667692661285,
+  "search_time_s": 199.51126885414124,
+  "gate_failed": null,
+  "phi_uniform": 0.0,
+  "phi_generation": 0.2727272727272727,
+  "phi_first_step": 0.3295454545454546,
+  "full_accuracy": 0.8380952380952381,
+  "reconstruction_variance_max": 0.002831094665452838
+}
